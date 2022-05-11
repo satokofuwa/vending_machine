@@ -19,14 +19,11 @@
 #vm.return_money
 
 class Drink
-  attr_accessor :name,
-                :price
-                :stock
 
-  def initialize(name, price,stock)
-    @name = name
-    @price = price
-    @stock = stock
+  def drink
+    drink = {"コーラ" => "120円", "レッドブル" => "200円", "水" => "100円"}
+    
+    array = drink.keys
   end
 
 coke= Drink.new("コーラ",120,5)
