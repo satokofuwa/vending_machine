@@ -18,7 +18,7 @@ class VendingMachine
     @drinks = []
     5.times { @drinks.push(Drink.cola) }
 
-    preparation = Preparation.new(@drinks)
+    category = Preparation.new(@drinks)
     @stocks.push(preparation) if preparation.validate_class && preparation.validate_unique
     @unstock = []
   end

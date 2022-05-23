@@ -1,6 +1,6 @@
 require "./drink"
 
-class Preparation
+class Category
   attr_accessor :drinks
   #ドリンクを呼び出している。Vendingmacheineで使う為、書き込みと読み込みを定義しなければいけないから
 
